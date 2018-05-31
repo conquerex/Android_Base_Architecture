@@ -1,0 +1,19 @@
+<resources>
+    <declare-styleable name="IconTextView">
+        <attr name="icon" format="reference" />
+        <attr name="checkedIcon" format="reference" />
+        <attr name="iconWidth" format="dimension" />
+        <attr name="iconHeight" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="badgeTextColor" format="color" />
+        <attr name="badgeTextSize" format="dimension" />
+        <attr name="badgeCount" format="integer" />
+        <attr name="badgeTextBackground" format="reference" />
+    </declare-styleable>
+
+    <item name="iconImageViewImageView" type="id" />
+    <item name="iconImageViewTextView" type="id" />
+    <item name="iconImageViewBadge" type="id" />
+</resources>
